@@ -17,7 +17,9 @@ body {
     color: #141414; /* night black */
 }
 
-
+h1 {
+    font-family: "Racing Sans One", sans-serif;
+}
 
 /* Main content */
 main {
