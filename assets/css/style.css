@@ -92,8 +92,8 @@ main {
     margin-top: 40.57px; /* Make content visible below header */
 }
 
-/* Media query just above tablet screens breakpoint (770px and larger) */
-@media screen and (min-width: 770px) {
+/* Media query at small laptop screen breakpoint (992px and larger) */
+@media screen and (min-width: 992px) {
     /* Display nav links on header */
     nav {
         position: relative;
@@ -114,5 +114,16 @@ main {
 
     .menu-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 60px;
+        margin: 0 1rem;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 61.14px;
     }
 }
