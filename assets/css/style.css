@@ -28,6 +28,7 @@ header {
 
 header a {
     text-decoration: none;
+    color: #141414;
 }
 
 header i {
@@ -38,6 +39,24 @@ h1 {
     font-family: "Racing Sans One", sans-serif;
     color: #141414;
     letter-spacing: 0.5px;
+}
+
+#navbar {
+    font-size: 105%;
+    font-weight: 550;
+    list-style-type: none;
+}
+
+#navbar > li {
+    margin-bottom: 1em;
+}
+
+#navbar > li:hover {
+    border-bottom: 1px solid #141414;
+}
+
+.active {
+    border-bottom: 1px solid #141414;
 }
 
 /* Main content */
