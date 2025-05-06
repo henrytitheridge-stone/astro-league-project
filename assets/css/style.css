@@ -17,8 +17,27 @@ body {
     color: #141414; /* night black */
 }
 
+/* Header */
+header {
+    background-color:  #FBC31E; /* mikado yellow */
+    padding: 0.5rem 2rem;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header i {
+    margin-right: 2px;
+}
+
 h1 {
     font-family: "Racing Sans One", sans-serif;
+    color: #141414;
+    letter-spacing: 0.5px;
 }
 
 /* Main content */
