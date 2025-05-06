@@ -92,6 +92,13 @@ main {
     margin-top: 40.57px; /* Make content visible below header */
 }
 
+/* Hero section */
+#hero {
+    width: 100%;
+    background: url(../images/soccer-game-concept_23-2151043804.jpg)no-repeat center center/cover;
+    height: 675px;
+}
+
 /* Footer */
 
 footer {
@@ -103,7 +110,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 4px 0;
+    padding: 8px 0;
 }
 
 #social-links i {
