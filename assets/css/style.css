@@ -92,6 +92,25 @@ main {
     margin-top: 40.57px; /* Make content visible below header */
 }
 
+/* Footer */
+
+footer {
+    background-color: #FBC31E;
+}
+
+#social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#social-links i {
+    font-size: 150%;
+    color: #141414;
+}
+
 /* Media query at small laptop screen breakpoint (992px and larger) */
 @media screen and (min-width: 992px) {
     /* Display nav links on header */
