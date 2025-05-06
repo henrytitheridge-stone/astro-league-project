@@ -24,11 +24,15 @@ header {
     z-index: 2;
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: #141414;
+    top: 100%;
 }
 
 header i {
@@ -60,7 +64,7 @@ h1 {
     border-bottom: 1px solid #141414;
 }
 
-/* Nav dropdown toggle */
+/* Nav styles for dropdown toggle */
 nav {
     position: absolute;
     background-color: #FBC31E;
@@ -68,6 +72,18 @@ nav {
     width: 100%;
     left: 0;
     display: none;
+}
+
+#menu-toggle {
+    display:none;
+}
+
+.menu-toggle-label {
+    font-size: 1.5rem;
+}
+
+#menu-toggle:checked~nav {
+    display:block;
 }
 
 /* Main content */
