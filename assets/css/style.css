@@ -118,7 +118,7 @@ main {
 }
 
 .overlay p {
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 /* Buttons */
@@ -126,6 +126,8 @@ main {
     background-color: #387B12;
     color: white;
     padding: 6px 12px;
+    text-decoration: none;
+    font-weight: 550;
 }
 
 .btn:hover {
@@ -133,13 +135,11 @@ main {
     background-color: black;
 }
 
-p .btn {
-    text-align: center;
-    line-height: 65px;
-    text-decoration: none;
-    margin-left: 40px;
-    font-weight: 550;
+.overlay-button {
+    padding-top: 2rem;
+    opacity: 1;
 }
+
 
 /* Footer */
 
@@ -158,6 +158,19 @@ footer {
 #social-links i {
     font-size: 150%;
     color: #141414;
+}
+
+/* Media query for tablet screens and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Move and resize hero overlay to prevent obscuring image */
+    .overlay {
+        min-height: 170px;
+        width: 80%;
+    }
+
+    .overlay-button {
+        padding-top: 1rem;
+    }
 }
 
 /* Media query at small laptop screen breakpoint (992px and larger) */
@@ -193,5 +206,29 @@ footer {
     /* Main content */
     main {
         margin-top: 61.14px;
+    }
+
+    /* Hero section */
+    .overlay {
+        width: 25%;
+        right: 25px;
+        min-height: 295px;
+        bottom: 30px;
+        font-size: 110%; 
+    }
+
+    .overlay-button {
+        padding-top: 2rem;
+    }
+}
+
+/* Media query for xl screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .overlay {
+        font-size: 135%;
+    }
+
+    .overlay-button {
+        padding-top: 1.5rem;
     }
 }
