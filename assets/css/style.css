@@ -89,7 +89,7 @@ nav {
 main {
     /* Push footer to bottom of page */
     flex: 1 0 auto;
-    margin-top: 40.57px; /* Make content visible below header */
+    margin-top: 40.57px; /* Make content visible below header on small screens */
 }
 
 /* Hero section */
@@ -107,9 +107,9 @@ main {
     padding-top: 10px;
     padding-left: 8px;
     padding-right: 5px;
-    min-height: 290px;
+    min-height: 295px;
     bottom: 10px;
-    width: 60%;
+    width: 68%;
     font-size: 105%;
 }
 
@@ -119,6 +119,26 @@ main {
 
 .overlay p {
     margin-top: 6px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #387B12;
+    color: white;
+    padding: 6px 12px;
+}
+
+.btn:hover {
+    border-bottom: none;
+    background-color: black;
+}
+
+p .btn {
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 550;
 }
 
 /* Footer */
