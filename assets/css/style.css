@@ -121,6 +121,30 @@ main {
     margin-top: 10px;
 }
 
+#services {
+    width: 85%;
+    margin: 20px auto;
+}
+
+#services h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 220%;
+}
+
+#services h3 {
+    color: #387B12;
+}
+
+#facilities>div, #events>div {
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+#advantages p {
+    padding: 10px 20px;
+}
+
 /* Buttons */
 .btn {
     background-color: #387B12;
@@ -139,7 +163,6 @@ main {
     padding-top: 2rem;
     opacity: 1;
 }
-
 
 /* Footer */
 
