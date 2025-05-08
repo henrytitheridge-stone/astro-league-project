@@ -148,7 +148,7 @@ main {
 
 #events p {
     padding: 0px 0px 5px 10px;
-    font-size: 80%;
+    line-height: 20px;
 }
 
 #events img {
@@ -157,9 +157,6 @@ main {
 }
 
 /* Contact/opening times section */
-#contact {
-    padding-top: 4rem; /* Prevent navbar covering section heading */
-}
 #contact h2 {
     margin-bottom: 15px;
     text-align: center;
@@ -259,12 +256,12 @@ footer {
     #events {
         display: flex;
         justify-content: space-evenly;
-        align-items:center;
+        align-items: top;
     }
 
     #events img {
         width:100%;
-        max-height: 400px;
+        max-height: 115px;
     }
 
     /*Headings */
@@ -329,6 +326,12 @@ footer {
     #services h2, #contact h2 {
         font-size: 300%;
     }
+
+    /* Services */
+    #events img {
+        width:100%;
+        max-height: 155px;
+    }
 }
 
 /* Media query for xl screens (1200px and up) */
@@ -353,6 +356,14 @@ footer {
     /* Services */
     #events img {
         width:100%;
-        max-height: 500px;
+        max-height: 220px;
+    }
+}
+
+/* Media query for 4k screens (1500px and up) */
+@media screen and (min-width: 1500px) {
+    #events img {
+        width:100%;
+        max-height: 400px;
     }
 }
