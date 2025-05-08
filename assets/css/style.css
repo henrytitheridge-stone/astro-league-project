@@ -242,9 +242,11 @@ footer {
 }
 
 /* Media query for medium size phone screens (375px and up) */
+@media screen and(min-width: 375px){
 #events img {
     width:85%;
     max-height: 200px;
+}
 }
 
 /* Media query for tablet screens and larger (768px and up) */
