@@ -121,34 +121,39 @@ main {
     margin-top: 10px;
 }
 
+/* Services section */
+
 #services {
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
 }
 
 #services h2 {
-    margin-bottom: 20px;
+    margin-top:20px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 220%;
+    font-size: 250%;
 }
 
 #services h3 {
     color: #387B12;
+    padding: 10px 0px 15px 10px;
+    font-size: 115%;
 }
 
-#facilities>div, #events>div {
+#events {
     margin-bottom: 20px;
     line-height: 15px;
 }
 
-#advantages p {
-    padding: 10px 10px 0px 10px;
+#events p {
+    padding: 0px 0px 5px 10px;
     font-size: 80%;
 }
 
-#advantages img {
+#events img {
     width:100%;
-    max-height: 150px;
+    max-height: 200px;
 }
 
 /* Buttons */
@@ -200,6 +205,22 @@ footer {
     .overlay-button {
         padding-top: 1rem;
     }
+
+    /* Services */
+    #events {
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+
+    #events img {
+        width:100%;
+        max-height: 400px;
+    }
+
+    #services h3 {
+        font-size: 110%;
+    }
 }
 
 /* Media query at small laptop screen breakpoint (992px and larger) */
@@ -249,6 +270,15 @@ footer {
     .overlay-button {
         padding-top: 2rem;
     }
+
+    /* Services */
+    #services h3 {
+        font-size: 150%;
+    }
+
+    #services h2 {
+        font-size: 300%;
+    }
 }
 
 /* Media query for xl screens (1200px and up) */
@@ -259,5 +289,19 @@ footer {
 
     .overlay-button {
         padding-top: 1.5rem;
+    }
+
+    /* Services */
+    #services h3 {
+        font-size: 250%;
+    }
+
+    #services h2 {
+        font-size: 400%;
+    }
+
+    #events img {
+        width:100%;
+        max-height: 500px;
     }
 }
