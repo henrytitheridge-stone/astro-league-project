@@ -156,6 +156,43 @@ main {
     max-height: 200px;
 }
 
+/* Contact/opening times section */
+#contact h2 {
+    margin-top:20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 250%;
+}
+
+#contact-open {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-open div {
+    background-color: #141414;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#contact-open h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+#contact-open p, address {
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Buttons */
 .btn {
     background-color: #387B12;
@@ -222,7 +259,8 @@ footer {
         max-height: 400px;
     }
 
-    #services h3 {
+    /*Headings */
+    #services h3, #contact-open h3 {
         font-size: 110%;
     }
 }
@@ -275,12 +313,12 @@ footer {
         padding-top: 2rem;
     }
 
-    /* Services */
-    #services h3 {
+    /* Headings */
+    #services h3, #contact-open h3 {
         font-size: 150%;
     }
 
-    #services h2 {
+    #services h2, #contact h2 {
         font-size: 300%;
     }
 }
@@ -295,15 +333,16 @@ footer {
         padding-top: 1.5rem;
     }
 
-    /* Services */
-    #services h3 {
-        font-size: 250%;
+   /* Headings */
+    #services h3, #contact-open h3 {
+        font-size: 210%;
     }
 
-    #services h2 {
+    #services h2, #contact h2 {
         font-size: 400%;
     }
 
+    /* Services */
     #events img {
         width:100%;
         max-height: 500px;
