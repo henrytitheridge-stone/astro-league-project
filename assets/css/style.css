@@ -130,7 +130,6 @@ main {
 }
 
 #services h2 {
-    margin-top:20px;
     margin-bottom: 15px;
     text-align: center;
     font-size: 250%;
@@ -158,8 +157,10 @@ main {
 }
 
 /* Contact/opening times section */
+#contact {
+    padding-top: 4rem; /* Prevent navbar covering section heading */
+}
 #contact h2 {
-    margin-top:20px;
     margin-bottom: 15px;
     text-align: center;
     font-size: 250%;
