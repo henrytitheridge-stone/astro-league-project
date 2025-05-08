@@ -178,7 +178,7 @@ main {
 /* Footer */
 
 footer {
-    background-color: #FBC31E;
+    background-color: #141414;
 }
 
 #social-links {
@@ -191,7 +191,11 @@ footer {
 
 #social-links i {
     font-size: 150%;
-    color: #141414;
+    color: white;
+}
+
+#social-links i:hover {
+    color: #FBC31E;
 }
 
 /* Media query for tablet screens and larger (768px and up) */
