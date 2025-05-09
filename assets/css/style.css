@@ -256,7 +256,6 @@ footer {
     #events {
         display: flex;
         justify-content: space-evenly;
-        align-items: top;
     }
 
     #events img {
