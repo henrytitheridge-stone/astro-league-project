@@ -90,7 +90,7 @@ main {
     /* Push footer to bottom of page */
     flex: 1 0 auto;
     margin-top: 40.57px; /* Make content visible below header on small screens */
-    display: flex;
+    display: flex; /* Give child section elements flexbox properties */
     flex-direction: column;
 }
 
@@ -199,6 +199,45 @@ th, td {
     padding: 5px;
 }
 
+/* Booking page form */
+#booking {
+    background-image: url(../images/doing-sport-concept_23-2151937731.jpg);
+    background-size: cover;
+    background-position: 65%;
+    flex-grow: 1;
+    padding: 30px 10% 40px 10%;
+}
+
+#booking-form {
+    color: white;
+    padding: 25px;
+    background-color:#141414;
+    opacity: 0.7;
+}
+
+#booking-form h2 {
+    color: white;
+    font-size: 200%;
+    margin-bottom: 25px;
+}
+
+.form-input, .form-select {
+    width: 90%;
+    height: 28px;
+    margin: 5px 0 25px 0;
+    padding: 1px 5px;
+}
+
+form .btn {
+    background-color: #FBC31E;
+    color: #141414;
+    font-size: 110%;
+    margin-top: 15px;
+}
+
+form .btn:hover {
+    background-color: white;
+}
 
 /* Buttons */
 .btn {
