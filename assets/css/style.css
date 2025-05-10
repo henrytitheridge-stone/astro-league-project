@@ -351,6 +351,12 @@ footer {
         font-size: 240%;
     }
 
+    /* Gallery */
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /* Media query at small laptop screen breakpoint (992px and larger) */
