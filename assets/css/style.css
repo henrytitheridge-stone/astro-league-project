@@ -228,6 +228,10 @@ th, td {
     padding: 1px 5px;
 }
 
+.form-input:hover, .form-select:hover {
+    background-color: #FBC31E;
+}
+
 form .btn {
     background-color: #FBC31E;
     color: #141414;
@@ -308,6 +312,16 @@ footer {
     #services h3, #contact-open h3 {
         font-size: 110%;
     }
+
+    /* Booking page */
+    #booking {
+        padding: 70px 15% 50px 15%;
+    }
+
+    #booking-form h2 {
+        font-size: 240%;
+    }
+
 }
 
 /* Media query at small laptop screen breakpoint (992px and larger) */
@@ -372,6 +386,15 @@ footer {
         width:100%;
         max-height: 155px;
     }
+
+    /* Booking page */
+    #booking {
+        padding: 90px 20% 60px 20%;
+    }
+
+    #booking-form h2 {
+        font-size: 280%;
+    }
 }
 
 /* Media query for xl screens (1200px and up) */
@@ -398,6 +421,15 @@ footer {
         width:100%;
         max-height: 220px;
     }
+
+    /* Booking page */
+    #booking {
+        padding: 200px 45% 60px 10%;
+    }
+
+    #booking-form h2 {
+        font-size: 290%;
+    }
 }
 
 /* Media query for 4k screens (1500px and up) */
@@ -405,5 +437,14 @@ footer {
     #events img {
         width:100%;
         max-height: 400px;
+    }
+
+    /* Booking page */
+    #booking {
+        padding: 200px 60% 60px 10%;
+    }
+
+    #booking-form h2 {
+        font-size: 290%;
     }
 }
