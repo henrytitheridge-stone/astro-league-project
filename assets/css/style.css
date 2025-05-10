@@ -209,6 +209,10 @@ th, td {
     line-height: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Booking page form */
 #booking {
     background-image: url(../images/doing-sport-concept_23-2151937731.jpg);
@@ -384,7 +388,7 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 220%;
         line-height: 60px;
         margin: 0 1rem;
     }
