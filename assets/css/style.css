@@ -243,6 +243,25 @@ form .btn:hover {
     background-color: white;
 }
 
+/* Success page */
+#success {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#success p {
+    padding: 20px;
+}
+
+#success h2 {
+    font-size: 200%;
+}
+
+#success .btn {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
 /* Buttons */
 .btn {
     background-color: #387B12;
@@ -315,7 +334,7 @@ footer {
 
     /* Booking page */
     #booking {
-        padding: 70px 15% 50px 15%;
+        padding: 60px 15% 50px 15%;
     }
 
     #booking-form h2 {
@@ -389,7 +408,7 @@ footer {
 
     /* Booking page */
     #booking {
-        padding: 90px 20% 60px 20%;
+        padding: 65px 20% 60px 20%;
     }
 
     #booking-form h2 {
@@ -424,7 +443,7 @@ footer {
 
     /* Booking page */
     #booking {
-        padding: 200px 45% 60px 10%;
+        padding: 100px 45% 60px 10%;
     }
 
     #booking-form h2 {
@@ -441,7 +460,7 @@ footer {
 
     /* Booking page */
     #booking {
-        padding: 200px 60% 60px 10%;
+        padding: 100px 60% 60px 10%;
     }
 
     #booking-form h2 {
