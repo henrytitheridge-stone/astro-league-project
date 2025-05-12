@@ -258,20 +258,20 @@ form .btn:hover {
 }
 
 /* Success page */
-#success {
+#success, #error {
     text-align: center;
     padding-top: 3rem;
 }
 
-#success p {
+#success p, #error p {
     padding: 20px;
 }
 
-#success h2 {
+#success h2, #error h2 {
     font-size: 200%;
 }
 
-#success .btn {
+#success .btn, #error .btn {
     max-width: 350px;
     margin: 0 auto;
 }
